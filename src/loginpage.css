@@ -1,0 +1,144 @@
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #e5e5e5;
+  }
+  
+  .quote-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem;
+  }
+  
+  .quote-content {
+    max-width: 323.5px;
+    margin-right: 2rem;
+  }
+  
+  .quote-content p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .author {
+    font-style: italic;
+    color: #666;
+    text-align: right;
+  }
+  
+  .login-section {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 426px;
+    margin-left: 2rem;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: #8692a6;
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #696f79;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    font-size: 16px;
+    box-shadow: 0px 15px 40px 5px #ededed;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox input {
+    margin-right: 0.5rem;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .or-divider {
+    text-align: center;
+    color: #bababa;
+    margin: 1rem 0;
+  }
+  
+  .google-login {
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .google-login img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+
+  .language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .language-switcher button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .language-switcher button:hover {
+    background-color: #e0e0e0;
+  }
